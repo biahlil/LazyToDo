@@ -1,0 +1,17 @@
+{
+  "name": "lazytodo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.9.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
