@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const router = require("./routers/index.js");
+const connect = require("./config/config.js");
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
